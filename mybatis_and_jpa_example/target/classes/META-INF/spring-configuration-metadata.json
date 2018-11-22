@@ -1,0 +1,24 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.config.dbconfig.DataSourceConfiguration",
+      "name": "oracle.datasource.read01",
+      "sourceMethod": "readDataSourceOne()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.example.config.dbconfig.DataSourceConfiguration",
+      "name": "oracle.datasource.read02",
+      "sourceMethod": "readDataSourceTwo()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.example.config.dbconfig.DataSourceConfiguration",
+      "name": "oracle.datasource.write",
+      "sourceMethod": "writeDataSource()",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": []
+}
