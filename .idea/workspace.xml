@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da06ef14-292d-4776-8ba2-4086e01a4a31" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/mybatis_and_jpa_example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/ExampleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/ServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TLableInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/annotation/ReadDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/annotation/WriteDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/exception/CustomExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springbootexample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/ReponseMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/PageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/com/example/mapper/question/TLableInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/com/example/mapper/question/TLableInfoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis_and_jpa_example/target/classes/mybatis-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,29 +32,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UrlFilterInvocationSecurityMetadataSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/UrlFilterInvocationSecurityMetadataSource.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="339">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlAccessDecisionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/UrlAccessDecisionManager.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-429">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="-99">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnvPropertiesInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/EnvPropertiesInfo.java">
+      <file leaf-file-name="TLableInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="63" lean-forward="true" selection-start-line="2" selection-end-line="63" />
+            <state relative-caret-position="1235">
+              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,38 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceConfiguration.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceContextHolder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceContextHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSourceType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/MybatisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-758">
-              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+            <state relative-caret-position="570">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,34 +74,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthenticationAccessDeniedHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/AuthenticationAccessDeniedHandler.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="627">
+              <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebSecurityConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebSecurityConfig.java">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/web/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="1188">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebMvcConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebMvcConfig.java">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/repository/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="255" selection-start-line="255" selection-end-line="255" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReponseMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/ReponseMessage.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -150,6 +166,10 @@
       <find>com.xdf.dbmodal.question.TLableInfo</find>
       <find>com/xdf/example/mapper/</find>
       <find>oracle</find>
+      <find>com/xdf/example/mapper</find>
+      <find>com.xdf.grow.common</find>
+      <find>com.xdf.repository.mapper.question</find>
+      <find>10.200.116.82</find>
     </findStrings>
     <replaceStrings>
       <replace>com.mysql.jdbc.Driver</replace>
@@ -157,6 +177,7 @@
       <replace>@Column(name</replace>
       <replace>com.example.bean.question.TLableInfo</replace>
       <replace>com.example.config</replace>
+      <replace>0.0.0.0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,12 +198,24 @@
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TQuestion.java" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TLableInfo.java" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/MybatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/Page.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/bean/question/ReponseMessage.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/ReponseMessage.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoService.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoJpaExampleService.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/User.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserService.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/web/UserController.java" />
       </list>
     </option>
   </component>
@@ -194,7 +227,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -213,6 +256,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -264,27 +308,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootframework" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_and_jpa_example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springbootframework" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis_and_jpa_example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot2" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +322,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,16 +331,21 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="E:/globalyou/sourcecode/globalyou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.common.util" />
+      <recent name="com.example.bean.question" />
+      <recent name="com.example.service" />
       <recent name="com.example" />
       <recent name="com.example.exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springbootframework\mybatis_and_jpa_example\src\main\java\com\example\common\util" />
       <recent name="E:\springbootframework\mybatis_and_jpa_example\src\main\java\com\example\bean" />
       <recent name="E:\springbootframework\mybatis_and_jpa_example\src\main\java\com\example\mapper" />
       <recent name="E:\springbootframework\mybatis_and_jpa_example\src\main\java\com\example\common" />
@@ -394,12 +422,13 @@
       <option name="presentableId" value="Default" />
       <updated>1542869389141</updated>
       <workItem from="1542869395165" duration="17000" />
-      <workItem from="1542869472315" duration="8061000" />
+      <workItem from="1542869472315" duration="9390000" />
+      <workItem from="1543111051675" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8078000" />
+    <option name="totallyTimeSpent" value="10874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -417,26 +446,26 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32905138" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32905138" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2312253" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41996047" />
+      <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17773438" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="4" />
+      <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,6 +475,61 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/AuthenticationAccessDeniedHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -486,9 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -496,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,49 +601,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TQuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2904">
-          <caret line="88" column="18" lean-forward="true" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TQuestion.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2524">
-          <caret line="146" column="10" lean-forward="true" selection-start-line="146" selection-start-column="10" selection-end-line="146" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TQuestionMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TQuestion.java" />
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/TLableInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="33" selection-start-column="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2424#2425#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-            <element signature="e#2504#2505#0" expanded="true" />
-            <element signature="e#2544#2545#0" expanded="true" />
-            <element signature="e#2637#2638#0" expanded="true" />
-            <element signature="e#2670#2671#0" expanded="true" />
-            <element signature="e#2720#2721#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2890#2891#0" expanded="true" />
-            <element signature="e#2940#2941#0" expanded="true" />
-            <element signature="e#2984#2985#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,23 +617,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="264">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -609,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/EnvPropertiesInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="63" lean-forward="true" selection-start-line="2" selection-end-line="63" />
+        <state relative-caret-position="1386">
+          <caret line="63" selection-start-line="2" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -619,14 +646,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="330">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/DataSourceContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="297">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
@@ -638,34 +665,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/MybatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-758">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/UrlFilterInvocationSecurityMetadataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/UrlAccessDecisionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
+        <state relative-caret-position="264">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="792">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/UrlFilterInvocationSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/config/dbconfig/MybatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="166" column="10" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1881">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/mapper/question/TLableInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387">
+          <caret column="35" selection-start-column="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/bean/question/ReponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/ReponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/common/util/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="255" selection-start-line="255" selection-end-line="255" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/bean/question/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoJpaExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/TLableInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="80" column="1" lean-forward="true" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis_and_jpa_example/src/main/java/com/example/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

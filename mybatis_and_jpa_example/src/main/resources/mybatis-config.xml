@@ -33,6 +33,6 @@
 		<setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
 	</settings>
 	<plugins>
-		<plugin interceptor="com.xdf.grow.common.util.PageHelper"></plugin>
+		<plugin interceptor="com.example.common.util.PageHelper"></plugin>
 	</plugins>
 </configuration>
